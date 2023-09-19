@@ -1,0 +1,101 @@
+.card {
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    width: 250px;
+    margin: 20px;
+  }
+  
+  .card-image {
+    width: 249px;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .description {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-price {
+    text-align: center;
+  }
+  
+  .food-cards {
+    display: flex;
+    margin-left: 15%;
+    flex-wrap: wrap; 
+    margin-top: 1rem;/* Added to wrap cards to the next line */
+  }
+  
+  /*Main page */
+  .Main-container {
+    display: flex;
+    flex-wrap: wrap; /* Added to wrap header and button to the next line */
+    justify-content: space-between;
+    background-color: rgb(237, 231, 224);
+  }
+  
+  .Main-header {
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20%;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    width: 100%; /* Added to expand header to full width */
+    text-align: left; /* Center align the header */
+  }
+  .action-button {
+    background-color: #f4ce14;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+    margin-left: 30%;
+    text-decoration: none;
+    color: black;
+    font-family: "Karla";
+    font-size: 1rem;
+  }
+  
+  .action-button:hover {
+    background-color: #495e57;
+    color: #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #edefee;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+
+
+  /* Responsive styles for mobile devices */
+  @media only screen and (max-width: 400px) {
+    .card {
+      width: 50%; /* Make the cards take full width on mobile devices */
+      margin: 10px 0;
+      gap: 5%; /* Adjust margin for mobile devices */
+    }
+
+    .food-cards {
+      margin-left: 0;
+    }
+    .Main-btn{
+      width: fit-content;
+    }
+
+    .Main-container {
+      flex-direction: column; /* Stack header and button vertically on mobile devices */
+    }
+  }

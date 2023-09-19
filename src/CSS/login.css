@@ -1,0 +1,122 @@
+
+ .body_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.app_Signup {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+  width: 40%;
+
+}
+
+.title {
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 2rem;
+}
+
+.app_fname {
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.app_lname {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.app_email {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.app_password {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+
+
+.login_btn {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2rem;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: black;
+  background-color: #f4ce14;
+  border: 1px dashed #f4ce14;
+  cursor: pointer;
+}
+
+.login_btn:hover {
+  color: #f4ce14;
+  background-color: black;
+  border: 1px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* Media Queries for Desktop */
+@media only screen and (max-width: 768px) {
+  .app_Signup {
+    width: 70%;
+  }
+}
+
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 480px) {
+  .app_Signup {
+    width: 90%;
+  }
+
+  .login_btn {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+  }
+}
+
+
+
+
+

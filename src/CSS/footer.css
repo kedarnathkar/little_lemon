@@ -1,0 +1,93 @@
+.app_footer-section{
+    padding: 2rem 4rem;
+}
+.app_footer{
+    background-color: rgb(227, 224, 224);
+}
+.app_footer{
+    display: flex;
+    flex-direction: column;
+}
+.app_footer-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+   width: auto;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.app_links{
+    width: 150px;
+    margin: 1rem;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.app_links ul {
+    list-style: none;
+}
+.app_links-items{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: small;
+}
+.app_social-icons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem ;
+}
+.app_social-icons ul {
+    list-style: none;
+}
+.app_social-icons li {
+ font-size: small;
+ line-height: 15px ;
+ margin: 1rem 0;
+ cursor: pointer;
+}
+.app_online {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: row;
+    line-height: 15px;
+}
+.app_online p{
+    font-size: small;
+    line-height: 25px ;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.app_footer-below-links{
+    display: flex;
+    flex-direction: row;
+}
+.app_footer-below{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.app_footer-below-links p{
+    font-size: small;
+    line-height: 15px;
+    margin-left: 1rem;
+    color: black;
+    font-weight: 500;
+}
+hr{
+    color: black ;
+    width: 100%;
+}
+.app_footer-copywrite p{
+    font-size: small;
+    line-height: 18px;
+    
+    color: rgb(16, 17, 17);
+    font-weight: 300;
+}
+
+@media screen and (max-width:850px){
+    
+}

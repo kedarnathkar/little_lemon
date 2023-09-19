@@ -1,0 +1,68 @@
+.app_header-container {
+  background-color: #495e57;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.25rem 5rem 2.5rem 5rem;
+    min-height: 20rem;
+    margin-bottom: 0rem;
+    grid-gap: 25vw;
+  }
+  .app_header {
+    color: #edefee;
+  }
+  .app_description {
+    margin-top: 1rem;
+   margin-bottom: 2rem;
+  
+  }
+
+  .image-header > img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .action-button-header {
+    background-color: #f4ce14;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Karla";
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+  .action-button-header:hover {
+    background-color: #495e57;
+    color: #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #edefee;
+    transition: 0.2s;
+  }
+  
+  /* Responsive styles for screens smaller than 640px */
+  @media only screen and (max-width: 500px) {
+    .app_header-container {
+      padding: 1rem 2rem 0 2rem;
+      margin-top: 2rem;
+      grid-gap: 1vw;
+    }
+  
+    .app_header > h1 {
+        font-size: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+      }
+    
+      .app_header > h3 {
+        font-size: 1rem;
+        margin-bottom: 0.1rem;
+      }
+      .app_description {
+        margin-bottom: 1rem;
+      }
+      .action-button{
+        margin-bottom: 2rem;
+      }
+  }

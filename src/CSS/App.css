@@ -1,0 +1,139 @@
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 0.2rem;
+  resize: none;
+}
+
+/* Reservation page */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../components/img/767042.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.booking-heading  {
+ color: rgb(77, 75, 75);
+text-transform: uppercase;
+letter-spacing: 2px;
+display: block;
+font-weight: bold;
+font-size:  large;
+margin-bottom: 1rem;
+margin-left: 35%;
+}
+
+
+.app_booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-grp {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.app_booking-table {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  width: 40%;
+}
+
+.app_booking-numbers{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.app_preferences{
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .booking-heading {
+    margin-left: 10%;
+  }
+
+  .app_booking-table {
+    width: 70%;
+  }
+
+  .action-button {
+    margin-left: 10%;
+  }
+}
+
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 480px) {
+  .booking-heading {
+    margin-left: 10%;
+    font-size: medium;
+  }
+
+  .app_booking-table {
+    width: 90%;
+  }
+  .action-button {
+    margin-left: 20%;
+  }
+}
+
+/* Confirmation */
+
+.reserve-header-text{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: left;
+  align-items: center;
+  height: 50vh;
+  color: black;
+}
+
+.redirect-button{
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.62em;
+  border-radius: 5px;
+  color: black;
+  background-color: #f4ce14;
+  border: 1px dashed #f4ce14;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+
+
